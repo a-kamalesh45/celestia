@@ -1,24 +1,53 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import './App.css';
+import Navbar from './Navbar';
+import Home from './Home';
+import Schedule from './Schedule';
+import Login from './Login';
+import Signup from './Signup';
+import Profile from './Profile';
+import TeamSeccy from './TeamSeccy';
+import TeamHead from './TeamsHead';
+import TeamSubhead from './TeamSubhead';
 
 function App() {
+
+    const [status, setStatus] = useState(localStorage.getItem("status")==='true');
+    
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar status={status} setStatus={setStatus}/>
+      <div className="content">
+        <Switch>
+          <Route exact path = "/">
+            <Home />
+          </Route>
+          <Route exact path = "/schedule">
+            <Schedule />
+          </Route>
+          <Route exact path = "/login">
+            <Login setStatus={setStatus}/>
+          </Route>
+          <Route exact path="/signup">
+            <Signup setStatus={setStatus} />
+          </Route>
+          <Route exact path = "/profile">
+            <Profile />
+          </Route>
+          <Route exact path = "/teamseccy">
+            <TeamSeccy />
+          </Route>
+          <Route exact path = "/teamhead">
+            <TeamHead />
+          </Route>
+          <Route exact path = "/teamsubhead">
+            <TeamSubhead />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
