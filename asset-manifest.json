@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/celestia/static/css/main.ee9b8772.css",
-    "main.js": "/celestia/static/js/main.e901f540.js",
+    "main.js": "/celestia/static/js/main.d5d10216.js",
     "static/js/453.296d5777.chunk.js": "/celestia/static/js/453.296d5777.chunk.js",
     "static/media/bg8.jpg": "/celestia/static/media/bg8.09a67684cad65293f0d8.jpg",
     "static/media/bg11.jpg": "/celestia/static/media/bg11.c0edfeaa80ae45dc4002.jpg",
@@ -19,11 +19,11 @@
     "static/media/gmail.png": "/celestia/static/media/gmail.9881c4aa1bf24a054fc2.png",
     "index.html": "/celestia/index.html",
     "main.ee9b8772.css.map": "/celestia/static/css/main.ee9b8772.css.map",
-    "main.e901f540.js.map": "/celestia/static/js/main.e901f540.js.map",
+    "main.d5d10216.js.map": "/celestia/static/js/main.d5d10216.js.map",
     "453.296d5777.chunk.js.map": "/celestia/static/js/453.296d5777.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee9b8772.css",
-    "static/js/main.e901f540.js"
+    "static/js/main.d5d10216.js"
   ]
 }
