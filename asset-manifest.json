@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/celestia/static/css/main.ee9b8772.css",
+    "main.js": "/celestia/static/js/main.e901f540.js",
+    "static/js/453.296d5777.chunk.js": "/celestia/static/js/453.296d5777.chunk.js",
+    "static/media/bg8.jpg": "/celestia/static/media/bg8.09a67684cad65293f0d8.jpg",
+    "static/media/bg11.jpg": "/celestia/static/media/bg11.c0edfeaa80ae45dc4002.jpg",
+    "static/media/bg5.jpg": "/celestia/static/media/bg5.a4e23a9520dafa2bbe95.jpg",
+    "static/media/bg7.jpg": "/celestia/static/media/bg7.2a397fed7e161ebab1cc.jpg",
+    "static/media/prof.png": "/celestia/static/media/prof.f31fdaa37229fc4ff601.png",
+    "static/media/cal.png": "/celestia/static/media/cal.b7f229a72f38815420dc.png",
+    "static/media/bg14.jpg": "/celestia/static/media/bg14.bcdb6d3c03fe8d6bf34c.jpg",
+    "static/media/bg4.jpg": "/celestia/static/media/bg4.64fb6456eec96e280006.jpg",
+    "static/media/logo9.png": "/celestia/static/media/logo9.5c9ec810c78ff55c95bf.png",
+    "static/media/logo7.png": "/celestia/static/media/logo7.9bd3d0b24b474e77b6ab.png",
+    "static/media/logo8.png": "/celestia/static/media/logo8.411f69acbd20fb5c8218.png",
+    "static/media/fb.png": "/celestia/static/media/fb.e4e11ed7c4c1b9b367a6.png",
+    "static/media/linkedin3.png": "/celestia/static/media/linkedin3.26d3fbe01279ec304ab9.png",
+    "static/media/gmail.png": "/celestia/static/media/gmail.9881c4aa1bf24a054fc2.png",
+    "index.html": "/celestia/index.html",
+    "main.ee9b8772.css.map": "/celestia/static/css/main.ee9b8772.css.map",
+    "main.e901f540.js.map": "/celestia/static/js/main.e901f540.js.map",
+    "453.296d5777.chunk.js.map": "/celestia/static/js/453.296d5777.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee9b8772.css",
+    "static/js/main.e901f540.js"
+  ]
+}
