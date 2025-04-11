@@ -27,7 +27,7 @@ const Navbar = ({ status, setStatus }) => {
         <h1>CELESTIA</h1>
       </div>
       <div className='nav-links'>
-        <li><Link to="/">HOME</Link></li>
+        <li><Link to="/celestia">HOME</Link></li>
         <li><Link to="/schedule">SCHEDULE</Link></li>
         <li><Link to="/teamhead">TEAMS</Link></li>
         <li><Link to="/profile">PROFILE</Link></li>
